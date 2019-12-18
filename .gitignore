@@ -1,7 +1,7 @@
 # Byte-compiled / optimized / DLL files
-OpenclassRooms---Parcours-Python---Projet-8/settings/production.py
+settings/production.py
 __pycache__/
-OpenclassRooms---Parcours-Python---Projet-8/staticfiles/
+staticfiles/
 *.py[cod]
 *$py.class
 
