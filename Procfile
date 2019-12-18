@@ -1,0 +1,1 @@
+web: gunicorn OCRnutella.wsgi --log-file -
