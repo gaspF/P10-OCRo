@@ -1,7 +1,7 @@
 # Byte-compiled / optimized / DLL files
-production.py
+settings/production.py
 __pycache__/
-/staticfiles/
+/staticfiles
 *.py[cod]
 *$py.class
 
