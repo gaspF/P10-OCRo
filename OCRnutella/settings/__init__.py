@@ -39,7 +39,7 @@ else:
 ALLOWED_HOSTS = ['167.71.132.171']
 
 sentry_sdk.init(
-        dsn='https://eb10e9b6fe48498db8926920a996ddb8@sentry.io/1861245",
+        dsn="https://eb10e9b6fe48498db8926920a996ddb8@sentry.io/1861245",
         integrations=[DjangoIntegration()],
 
         send_default_pii=True
