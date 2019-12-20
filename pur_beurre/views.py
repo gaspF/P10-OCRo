@@ -21,6 +21,9 @@ class Index(View):
         context_dict = {'form' : form}
         return render(request, self.template_name, context_dict)
 
+    def index(request):
+        pourquoi pas ?
+
 
 
 
