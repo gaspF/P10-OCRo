@@ -43,7 +43,7 @@ sentry_sdk.init(
         integrations=[DjangoIntegration()],
 
         send_default_pii=True
-
+)
 
 
 
