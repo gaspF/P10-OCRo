@@ -180,7 +180,3 @@ class UserSavedProductsList(ListView):
     def chunks(l, n):
         for i in range(0, len(l), n):
             yield l[i:i + n]
-
-def trigger_error(request):
-    division_by_zero = 1 / 0
-
