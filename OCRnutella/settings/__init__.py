@@ -10,6 +10,8 @@ https://docs.djangoproject.com/en/2.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
+import sentry_sdk
+from sentry_sdk.integrations.django import DjangoIntegration
 
 import os
 import dj_database_url
@@ -35,6 +37,14 @@ else:
     DEBUG = True
 
 ALLOWED_HOSTS = ['167.71.132.171']
+
+sentry_sdk.init(
+        dsn='https://eb10e9b6fe48498db8926920a996ddb8@sentry.io/1861245",
+        integrations=[DjangoIntegration()],
+
+        send_default_pii=True
+
+
 
 
 # Application definition
