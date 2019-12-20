@@ -21,11 +21,6 @@ class Index(View):
         context_dict = {'form' : form}
         return render(request, self.template_name, context_dict)
 
-    def index(request):
-        pourquoi pas ?
-
-
-
 
 class Legal(View):
     template_name = "pur_beurre/pages/legal_notices.html"
