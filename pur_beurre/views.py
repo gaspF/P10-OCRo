@@ -22,6 +22,8 @@ class Index(View):
         return render(request, self.template_name, context_dict)
 
 
+
+
 class Legal(View):
     template_name = "pur_beurre/pages/legal_notices.html"
 
@@ -178,6 +180,4 @@ class UserSavedProductsList(ListView):
     def chunks(l, n):
         for i in range(0, len(l), n):
             yield l[i:i + n]
-
-
 
