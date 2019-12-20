@@ -9,6 +9,8 @@ from django.shortcuts import render
 from pur_beurre.models import Product
 from pur_beurre.forms import FoodRequestForm
 from django.core.paginator import Paginator
+from django.urls import path
+
 
 logger = logging.getLogger(__name__)
 
@@ -178,4 +180,11 @@ class UserSavedProductsList(ListView):
     def chunks(l, n):
         for i in range(0, len(l), n):
             yield l[i:i + n]
+
+def trigger_error(request):
+    division_by_zero = 1 / 0
+
+urlpattern = [
+        path('sentry-debug/', trigger_error)
+]
 
