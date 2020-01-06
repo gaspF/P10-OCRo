@@ -59,8 +59,7 @@ INSTALLED_APPS = [
     'pur_beurre',
     'users.apps.UsersConfig',
     'crispy_forms',
-    'pur_beurre.models.Categories',
-
+    
 ]
 
 MIDDLEWARE = [
