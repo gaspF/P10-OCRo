@@ -19,7 +19,7 @@ LOGGING = {
             'level': 'INFO',
             'handlers': ['sentry'],
             },
-        'formatters': {
+            'formatters': {
             'verbose': {
                 'format': '%(levelname)s %(asctime)s %(module)s '
                 '%(process)d %(thread)d %(message)s'
@@ -58,7 +58,7 @@ LOGGING = {
         },
     }
 
-ECRET_KEY = '5+(d#sh6)vxo4j2a+1tfe^0h-+hq6wdkx=a%bbx2@vxe$uv0h7'
+SECRET_KEY = '5+(d#sh6)vxo4j2a+1tfe^0h-+hq6wdkx=a%bbx2@vxe$uv0h7'
 DEBUG = False
 ALLOWED_HOSTS = ['167.71.132.171']
 DATABASES = {
@@ -71,4 +71,4 @@ DATABASES = {
             'PASSWORD': 'motdepasse',
             }
         }
-            
+
