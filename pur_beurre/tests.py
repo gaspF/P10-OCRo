@@ -1,9 +1,9 @@
 from django.contrib.auth.models import AnonymousUser, User
 from django.test import RequestFactory, TestCase
 
-from .models import *
+from pur_beurre.models import *
 from django.urls import reverse
-from .views import UserSavedProductsList
+from pur_beurre.views import UserSavedProductsList
 from users.views import profile
 
 
