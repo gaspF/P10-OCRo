@@ -14,4 +14,4 @@ services:
         - postgresql
 
 script: 
-        - unittest          
+        - pytest
