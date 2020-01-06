@@ -13,7 +13,7 @@ env: DJANGO_SETTINGS_MODULE='OCRnutella.settings'
 services:
         - postgresql
 
-env: DJANGO_SETTINGS_MODULE=OCRnutella./settings.travis
+env: DJANGO_SETTINGS_MODULE=OCRnutella.settings.travis
 
 script: 
         - python manage.py test
